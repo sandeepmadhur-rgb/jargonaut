@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback, useRef } from 'react'
 
 const INTERVALS = [5, 10, 15, 30, 60]
 const START_HOUR = 8
-const END_HOUR = 18
+const END_HOUR = 22
 const FETCH_TIMEOUT_MS = 20000
 const RETRY_DELAY_MS = 1500
 const SEVEN_DAYS_MS = 7 * 24 * 60 * 60 * 1000
